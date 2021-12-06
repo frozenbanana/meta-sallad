@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
+    "postinstall": "next build",
     "typecheck": "tsc"
   },
   "dependencies": {
